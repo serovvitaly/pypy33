@@ -4,7 +4,6 @@ import os
 import re
 
 conn = sqlite3.connect('dogs.db')
-
 c = conn.cursor()
 
 base_url = 'http://lottas.borda.ru/?13-0-'
